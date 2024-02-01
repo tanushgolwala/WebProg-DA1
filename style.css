@@ -1,0 +1,164 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    background-image: url('assets/back.jpg');
+}
+
+body a {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    background-color: #EA5F02;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    align-items: center;
+    padding: 50px;
+    height: 90px;
+}
+
+#heading {
+    color: black;
+    size: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#headeritem {
+    color: black;
+    size: 20px;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    padding: 50px;
+    font-weight: bold;
+    align-items: center;
+}
+
+#namefont {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+#header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EA5F02;
+    padding-bottom: 0;
+
+}
+
+#about {
+    color: #EA5F02;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#personal img {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 10%;
+    animation: fadeIn 5s infinite;
+}
+
+#personal1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    width: 50%;
+}
+
+#skills {
+    color: #EA5F02;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#skills p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+#skills li {
+    padding-left: 10px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+#education {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EA5F02;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#education1 {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+#education1 img {
+    animation: fadeIn 5s infinite;
+}
+
+#education1 ul {
+    padding-bottom: 10px;
+    color: white;
+}
+
+#education1 li {
+    margin-bottom: 10px;
+    padding: bottom 10px;
+    color: white;
+    padding: left 50px;
+    margin-left: 30px;
+}
+
+#socials {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#socials img {
+    border-radius: 10%;
+    animation: rotate 5s infinite;
+}
+
+#socials font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    color: white;
+}
